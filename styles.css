@@ -65,12 +65,15 @@
 /* common Element/attribiute END here */
 
 /* Header part START here */
+header{
+    background: linear-gradient(to right, rgb(240, 235, 233), rgb(209, 207, 207));
+}                                
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: gray;
+    margin: 0px 20px;
 }
 nav ul{
     list-style: none;
@@ -86,7 +89,7 @@ nav ul li a{
     font-weight: bold;
     text-transform: capitalize;
     text-decoration: none;
-    color: #fff;
+    color: #000;
     cursor: pointer;
 }
 
