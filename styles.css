@@ -1,0 +1,107 @@
+/* common Element/attribiute START here */
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+
+    /* font-family: 'Italianno', cursive;
+    font-family: 'Playfair', serif;
+    font-family: 'Roboto', sans-serif; */
+}
+.primary-h-tag{
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    font-weight: bolder;
+}
+.primary-color{
+    color: tomato;
+}
+.primary-btn{
+    background-color: tomato;
+    width: 100px;
+    padding: 10px;
+    border: 0;
+    outline: none;
+    font-weight: bolder;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 5px;
+    transition: .5s;
+    position: relative;
+}
+.primary-btn:hover{
+    background-color: red;
+    transform: scale(1.1);
+    letter-spacing: 3px;
+}
+.primary-btn::before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    width: 0%;
+    height: 100%;
+    background-color: red;
+    border-radius: 5px;
+    border: 0;
+    outline: none;
+
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+/* .primary-btn:hover::before{
+    animation-name: primary-btn;
+}
+
+@keyframes primary-btn{
+    to{
+        width: 100%;
+    }
+} */
+
+/* common Element/attribiute END here */
+
+/* Header part START here */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: gray;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    margin: 0px 20px;
+    padding: 20px 0px;
+}
+nav ul li a{
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Header part END here */
+
+/* footer part START here */
+/* footer part END here */
